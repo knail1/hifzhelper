@@ -22,6 +22,7 @@
 		29389E382001407900EB7861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29389E3B2001407900EB7861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29389E3D2001407900EB7861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29389E452001414E00EB7861 /* p004.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = p004.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +39,7 @@
 		29389E252001407900EB7861 = {
 			isa = PBXGroup;
 			children = (
+				29389E442001414E00EB7861 /* Resources */,
 				29389E302001407900EB7861 /* hifzHelperPrototype */,
 				29389E2F2001407900EB7861 /* Products */,
 			);
@@ -62,6 +64,15 @@
 				29389E3D2001407900EB7861 /* Info.plist */,
 			);
 			path = hifzHelperPrototype;
+			sourceTree = "<group>";
+		};
+		29389E442001414E00EB7861 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				29389E452001414E00EB7861 /* p004.gif */,
+			);
+			name = Resources;
+			path = hifzHelperPrototype/Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
