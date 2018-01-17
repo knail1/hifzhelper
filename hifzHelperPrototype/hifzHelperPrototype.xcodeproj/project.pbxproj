@@ -13,6 +13,8 @@
 		29389E392001407900EB7861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29389E382001407900EB7861 /* Assets.xcassets */; };
 		29389E3C2001407900EB7861 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29389E3A2001407900EB7861 /* LaunchScreen.storyboard */; };
 		294CB79E2001872D009923A0 /* p004.gif in Resources */ = {isa = PBXBuildFile; fileRef = 29389E452001414E00EB7861 /* p004.gif */; };
+		297E3453200EF139001C3CEC /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297E3452200EF139001C3CEC /* DrawView.swift */; };
+		297E3455200EF7CB001C3CEC /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297E3454200EF7CB001C3CEC /* Line.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		29389E3B2001407900EB7861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29389E3D2001407900EB7861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29389E452001414E00EB7861 /* p004.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = p004.gif; sourceTree = "<group>"; };
+		297E3452200EF139001C3CEC /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		297E3454200EF7CB001C3CEC /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 			children = (
 				29389E312001407900EB7861 /* AppDelegate.swift */,
 				29389E332001407900EB7861 /* ViewController.swift */,
+				297E3452200EF139001C3CEC /* DrawView.swift */,
 				29389E352001407900EB7861 /* Main.storyboard */,
 				29389E382001407900EB7861 /* Assets.xcassets */,
 				29389E3A2001407900EB7861 /* LaunchScreen.storyboard */,
 				29389E3D2001407900EB7861 /* Info.plist */,
+				297E3454200EF7CB001C3CEC /* Line.swift */,
 			);
 			path = hifzHelperPrototype;
 			sourceTree = "<group>";
@@ -150,7 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				29389E342001407900EB7861 /* ViewController.swift in Sources */,
+				297E3455200EF7CB001C3CEC /* Line.swift in Sources */,
 				29389E322001407900EB7861 /* AppDelegate.swift in Sources */,
+				297E3453200EF139001C3CEC /* DrawView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
